@@ -13,10 +13,12 @@ function App() {
   }
 
   return (
-    <div>
-      <div>{count}</div>
-      <button onClick={minus}>-1</button>
-      <button onClick={plus}>+1</button>
+    <div className='app-style'>
+      <div className='count-style'>{count}</div>
+      <div className='btn-style'>
+        <button className='btn-minus' onClick={minus}>-1</button>
+        <button className='btn-plus' onClick={plus}>+1</button>
+      </div>
     </div>
   );
 }
