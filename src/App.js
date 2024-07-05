@@ -4,10 +4,12 @@ import './App.css';
 function App() {
   let [count, setCount] = useState(0);
 
+  // -1
   function minus (event) {
     setCount(count - 1);
   }
 
+  // +1
   function plus (event) {
     setCount(count + 1);
   }
